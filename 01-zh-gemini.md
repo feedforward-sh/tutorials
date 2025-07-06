@@ -90,7 +90,7 @@ The driver's movements were generally correct for parallel parking, but lacked p
 3.  **Final Adjustment:** Make smaller, more controlled adjustments to achieve a perfectly parallel position closer to the curb.
 ```
 
-So far so good. As we can see from response, Gemini succesfully recognizes that parking attempt was problematic and suggested some corrective actions. Let's  see how we can further improve the level of detail and quality of corrections be leveraging zero-shot prompting.
+So far so good. As we can see from response, Gemini succesfully recognizes that parking attempt was problematic and suggested some corrective actions. Let's  see how we can further improve the level of detail and quality of corrections by leveraging zero-shot prompting.
 
 ## Zero-Shot Prompting
 
@@ -98,7 +98,7 @@ Let's start with viewing our instruction video:
 
 [![Watch on YouTube](https://img.youtube.com/vi/Q-cfrY45Yaw/0.jpg)](https://www.youtube.com/watch?v=Q-cfrY45Yaw)
 
-While not available in the article embedding, the instruction video also has a soundtrack which will be additionally utilized by Gemini to retrieve even more contextual information.
+The instruction video also has a soundtrack which will be additionally utilized by Gemini to retrieve even more contextual information.
 
 Let's proceed with creating instructions for the in-context learnining and collect a new `Content` object:
 
